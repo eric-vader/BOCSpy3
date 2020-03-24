@@ -1,0 +1,9 @@
+name: bocs
+channels:
+  - conda-forge
+dependencies:
+  - python==3.6.8
+  - pip==20.0.2
+  - conda-forge::matplotlib
+  - conda-forge::cvxpy
+  - conda-forge::cvxopt
